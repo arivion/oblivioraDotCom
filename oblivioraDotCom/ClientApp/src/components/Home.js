@@ -5,8 +5,10 @@ export class Home extends Component {
 
   render() {
     return (
-      <div>
-        <p>A landing page with nothing to link to :(</p>
+        <div>
+        <p>This is currently a page for hosting utilities etc. that I want more easily accessible for myself. Might make it something more useful in the future.</p>
+            <h1>Utilities</h1>
+            <p><a href="/feRandom">Fire Emblem: Engage randomizer</a> - A randomizer for selecing units and emblems in Fire Emblem: Engage</p>
       </div>
     );
   }

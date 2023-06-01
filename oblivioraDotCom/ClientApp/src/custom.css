@@ -8,7 +8,19 @@ code {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.check-input {
+    margin-left: 10px;
+}
+
+.check-label {
+    text-align: right;
+    border-color: #1861ac;
 }
