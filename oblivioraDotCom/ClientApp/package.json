@@ -1,6 +1,7 @@
 {
   "name": "oblivioradotcom",
   "version": "0.1.0",
+  "homepage": "http://obliviora.com",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.1.3",
@@ -68,4 +69,5 @@
       "last 1 safari version"
     ]
   }
+
 }
