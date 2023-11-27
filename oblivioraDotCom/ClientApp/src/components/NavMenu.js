@@ -27,7 +27,7 @@ export class NavMenu extends Component {
       <header>
         <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" container light>
                 <NavbarBrand tag={Link} to="/">Home</NavbarBrand>
-                <NavbarBrand tag={Link} to="/feRandom">FE:Engage Randomizer</NavbarBrand>
+                <NavbarBrand tag={Link} to="/engageRandom">FE:Engage Randomizer</NavbarBrand>
         </Navbar>
       </header>
     );

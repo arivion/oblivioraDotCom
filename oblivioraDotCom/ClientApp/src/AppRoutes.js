@@ -1,4 +1,4 @@
-import { Randomizer } from "./components/Randomizer";
+import { EngageRandomizer } from "./components/EngageRandomizer";
 import { Home } from "./components/Home";
 
 const AppRoutes = [
@@ -7,8 +7,8 @@ const AppRoutes = [
     element: <Home />
   },
   {
-    path: '/feRandom',
-    element: <Randomizer />
+    path: '/engageRandom',
+    element: <EngageRandomizer />
   }
 ];
 

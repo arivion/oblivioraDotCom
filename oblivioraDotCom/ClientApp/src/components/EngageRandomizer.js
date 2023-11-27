@@ -1,7 +1,7 @@
 ﻿import React, { Component, createRef } from 'react';
 
-export class Randomizer extends Component {
-    static displayName = Randomizer.name;
+export class EngageRandomizer extends Component {
+    static displayName = EngageRandomizer.name;
 
     constructor(props) {
         super(props);
@@ -78,7 +78,7 @@ export class Randomizer extends Component {
                     <input type="submit" value="Submit" className="btn-primary"></input>
                         <br></br>
                 </form>
-                <hr />{Randomizer.renderTeamTable(this.state.team)}
+                <hr />{EngageRandomizer.renderTeamTable(this.state.team)}
             </div>
         );
     }

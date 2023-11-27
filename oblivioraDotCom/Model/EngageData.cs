@@ -47,7 +47,7 @@
             new Character("Celine",4,false),
             new Character("Chloe",4,false),
             new Character("Louis",4,false),
-            new Character("Jean",6,false),
+            new Character("Jean",5,false),
             new Character("Diamant",8,false),
             new Character("Amber",8,false),
             new Character("Jade",9,false),
@@ -83,7 +83,7 @@
         public readonly static Emblem[] Emblems = new Emblem[] {
             new Emblem("Marth",new[]{0,1,2,3,4,5,6,7,8,9,10,11,24,25,26},false),
             new Emblem("Celica",new[]{5,6,7,8,9,10,11,21,22,23,24,25,26},false),
-            new Emblem("Sigurd",new[]{5,6,7,8,9,10,11,18,19,20,21,22,23,24,25,26},false),
+            new Emblem("Sigurd",new[]{4,5,6,7,8,9,10,11,18,19,20,21,22,23,24,25,26},false),
             new Emblem("Leif",new[]{9,10,11,18,19,20,21,22,23,24,25,26},false),
             new Emblem("Roy",new[]{9,10,11,20,21,22,23,24,25,26},false),
             new Emblem("Lyn",new[]{12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},false),
@@ -93,13 +93,13 @@
             new Emblem("Lucina",new[]{12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},false),
             new Emblem("Corrin",new[]{16,17,18,19,20,21,22,23,24,25,26},false),
             new Emblem("Byleth",new[]{15,16,17,18,19,20,21,22,23,24,25,26},false),
-            new Emblem("Tiki",new[]{6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
-            new Emblem("Hector",new[]{6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
-            new Emblem("Soren",new[]{6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
-            new Emblem("Chrom",new[]{6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
-            new Emblem("Camilla",new[]{6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
-            new Emblem("Edelgard",new[]{6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
-            new Emblem("Veronica",new[]{6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true)
+            new Emblem("Tiki",new[]{7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
+            new Emblem("Hector",new[]{7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
+            new Emblem("Soren",new[]{7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
+            new Emblem("Chrom",new[]{7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
+            new Emblem("Camilla",new[]{7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
+            new Emblem("Edelgard",new[]{7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true),
+            new Emblem("Veronica",new[]{7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26},true)
         };
 
         public static List<string> getCharacters(int chapter, bool fell)
